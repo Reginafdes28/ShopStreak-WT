@@ -1,0 +1,45 @@
+.game-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000408;
+  margin-bottom: 1rem;
+}
+
+.game-input input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+.game-input button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.game-input button:hover {
+  background-color: #218838;
+}
+
+.game-message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #ff6f61;
+  font-weight: bold;
+}
